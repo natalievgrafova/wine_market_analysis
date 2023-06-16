@@ -7,15 +7,21 @@
 *.dll
 *.so
 *.dylib
+*.cfg
 
 # Test binary, built with `go test -c`
 *.test
 
-# Output of the go coverage tool, specifically when used with LiteIDE
-*.out
+#venv 
+wine/
+bin/
+4.wine_market_analysis/
+lib/
+include/
 
-# Dependency directories (remove the comment below to include it)
-# vendor/
+4.wine_market_analysis/.DS_Store
+.DS_Store
 
-# Go workspace file
-go.work
+first_draft.ipynb
+draft.sql
+stream_draft.py
